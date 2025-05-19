@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+    padding: 0 15px;
+    background-color: aquamarine;
+}
+.header{
+    position: relative;
+
+}
+.company-logo{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+.menu-bar{
+    position: absolute;
+    width: 359px;
+height: 28px;
+top: 47px;
+left: 732px;
+border-radius: 1px;
+
+}
+
+ul{
+    flex: none;
+
+}
+
+
+@media (max-width:575.99px){
+    .container{
+        max-width: 90%;
+        padding: 0 10px;
+    }
+}
+
+@media(min-width: 576px){
+    .container{
+        max-width: 90%;
+        padding: 0 10px;
+    }
+}
+@media(min-width: 992px){
+    .container{
+        max-width: 90%;
+        padding: 0 10px;
+    }
+}
+
+@media (min-width: 1200px){
+    .container{
+        max-width: 1170px;
+    }
+}
