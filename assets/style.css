@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container{
@@ -10,53 +11,109 @@ body{
     padding: 0 15px;
     background-color: aquamarine;
 }
-.header{
-    position: relative;
+
+
+
+
+.footer{
+  background-color: #2E2100;
+  width: 1440px;
+  height: 428px;
+  position: relative;
+}
+.footer-logo-section{
+  position: absolute;
+  top: 95px
+}
+
+.footer-logo-section p{
+  color: #BFBCB2;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+width: 267px;
+}
+.divider{
+  width: 130px;
+height: 1px;
+background-color: #59554B;
+position: absolute;
+top: 53px;
+}
+
+.quick-link{
+  position: absolute;
+  top: 85px;
+  left: 548px;
 
 }
-.company-logo{
+
+.quick-link h1 ,.company-support h1, .company-address h1{
+color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px; 
+}
+
+.company-support{
+  position: absolute;
+  top: 85px;
+  left: 806px;
+
+}
+
+.company-support ul, .quick-link ul {
+  list-style: none;
+  padding: 0;
+ margin-top: 40px;
+}
+
+.company-support li, .quick-link li {
+  margin-bottom: 13px;
+  margin-top: 5px;
+}
+
+.company-support a, .quick-link a {
+  text-decoration: none;
+  color: #BFBCB2;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 185.714% */
+  transition: color 0.3s ease;
+}
+.company-address{
     position: absolute;
-    top: 100px;
-    left: 200px;
-}
-.menu-bar{
-    position: absolute;
-    width: 359px;
-height: 28px;
-top: 47px;
-left: 732px;
-border-radius: 1px;
+  top: 85px;
+  left: 1075px;
 
 }
 
-ul{
-    flex: none;
-
+.footer-divider{
+  width: 1170px;
+height: 1px;
+background-color:#59554B;
+position: absolute;
+top: 345px;
 }
-
-
-@media (max-width:575.99px){
-    .container{
-        max-width: 90%;
-        padding: 0 10px;
-    }
+.copy-right-text{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  position: absolute;
+top: 361px;
+left: 542px;
 }
-
-@media(min-width: 576px){
-    .container{
-        max-width: 90%;
-        padding: 0 10px;
-    }
-}
-@media(min-width: 992px){
-    .container{
-        max-width: 90%;
-        padding: 0 10px;
-    }
-}
-
-@media (min-width: 1200px){
-    .container{
-        max-width: 1170px;
-    }
+.copy-right-text p{
+  color: #807D74;
+text-align: center;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 185.714% */
 }
