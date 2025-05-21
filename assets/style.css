@@ -2,127 +2,53 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
 }
 
 .container{
     margin: 0 auto;
-    width: 100%;
-    max-width: 1170px;
-    padding: 0 15px;
-    background-color: aquamarine;
+    width: 1170px;
+    /* background-color: aquamarine; */
 }
 
-/* Start Blog Section CSS */
-
-.blog-section{
-  width: 1440px;
-  height: 878px;
-  background-color: #FFFCF4;
-
+.cta-section{
+  padding-top: 100px;
 }
-.blog-heading, .blog-dots-button{
-  padding-top: 65px;
+.cta-section .container{
+  height: 440px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
+  justify-content: space-between;
 }
-.blog-heading h1{
-  color: #130606;
-font-family: "Sen", sans-serif;
+
+/* Start CTA CSS */
+.cta-left{
+  width: 570px;
+
+}
+
+.cta-left h1{
+  color: #171100;
+font-family: Sen;
 font-size: 38px;
 font-style: normal;
 font-weight: 700;
-line-height: 48px; 
-letter-spacing: -0.76px; 
-margin-bottom: -0px;
-}
-.blog-heading p{
-  width: 448px;;
-  color: #696262;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px;
+line-height: 48px; /* 126.316% */
+letter-spacing: -0.76px;
 }
 
-.blog-card{
-  padding-top: 38px;
-  display: flex;
-  gap: 30px;
-  margin-bottom: -26px;
-}
-.blog-card .card{
-width: 370px;
-Height: 467px;
-border-radius: 16px;
-background: #FFF;
-box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
-transition: all 0.3s ease;
-}
-
-.blog-card .card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-}
-.card-image img{
-  width: 370px;
-  height: 250px;
-}
-.card-body{
-  padding: 0px 20px;
-}
-
-.card-body p{
-  color: #5F5B53;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px;
-}
-.dots-text{
-  display: flex;
-  align-items: center;
-  gap: 3px;
-  margin-bottom: 10px;
-}
-.card-body .card-divider{
-  border-radius: 0.5px;
-background: #E2DFDA;
-  width: 160px;
-height: 1px;
-}
-
-.card-body h1{
-  color: #171100;
+.cta-left p{
+color: #5F5B53;
 font-family: Poppins;
 font-size: 16px;
 font-style: normal;
-font-weight: 600;
+font-weight: 400;
 line-height: 28px; /* 175% */
 }
-.card-button button{
-  width: 118px;
-height: 50px;
-flex-shrink: 0;
-border-radius: 25px;
-background: #171100;
-border-color: none;
-border: none;
-color: #FFF;
-text-align: center;
-font-family: Poppins;
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-line-height: 26px;
-transition: all 0.3s ease;
-}
-.card-button button:hover {
-  background: #FFB900;
-  border: 1px solid #FFF;
-}
+
+/* End CTA CSS */
+
+
 
 
 
