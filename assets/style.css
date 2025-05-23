@@ -350,6 +350,68 @@ line-height: 30px;
 /* End Header and Hero CSS */
 
 
+
+/* Start Testimonial CSS */
+.testimonial{
+  background: #2E2100;
+  height: 380px;
+}
+.testimonial .container{
+  padding: 96px 0px;
+   display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 15px;
+  align-items: center;
+ 
+}
+.client-information{
+  width: 160px;
+}
+.client-information img{
+  margin-top: -16px;
+  width: 72px;
+height: 72px;
+border-radius: 100%;
+}
+
+.client-information h1{
+  margin-top: 12px;
+  color: #F7F7F7;
+font-family: 'Sen', sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 34px; 
+}
+
+.client-information p{
+   margin-top: -15px;
+ color: #BFBCB2;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+}
+
+.client-comments svg{
+  Width: 30px;
+Height: 28px;
+  
+}
+.client-comments h1{
+  margin-left: 30px;
+  margin-top: -7px;
+  color: #FFF;
+font-family: Poppins;
+font-size: 26px;
+font-style: italic;
+font-weight: 400;
+line-height: 40px;
+
+}
+
+
 /* Start Courses Section CSS */
 .courses-section {
   padding: 200px 0px;
