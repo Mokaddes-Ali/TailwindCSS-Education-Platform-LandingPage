@@ -366,6 +366,40 @@ body {
 
 
 /* Start Courses CSS */
+
+.courses-section {
+  padding: 200px 0px;
+  height: 645px;
+}
+
+.courses-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.courses-heading h1 {
+  color: #171100;
+  font-family: "Sen", sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  /* 126.316% */
+  letter-spacing: -0.76px;
+  margin-bottom: -10px;
+  margin-top: 0px;
+
+}
+
+.courses-heading p {
+  color: #5F5B53;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+
+}
 .courses{
   padding: 192px 0px;
   height: 645px;
@@ -406,88 +440,193 @@ line-height: 30px;
   border: none;
   background: none;
 }
-.courses-list-card{
+.courses-list-card {
   padding-top: 38px;
-  padding-left: -0px;
 }
-.courses-list-card .card-body{
+
+.card-body {
   width: 370px;
-height: 466px;
-flex-shrink: 0;
-border-radius: 12px;
-background: #FFF;
-box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
 }
-.courses-list-card .card-body img{
+
+.card-image img {
   width: 100%;
-height: 278px;
-flex-shrink: 0;
-border-radius: 12px 12px 0px 0px;
+  height: auto;
+  display: block;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 
-.couses-title-review{
-   display: flex;
+.card-content {
+  padding: 20px;
+}
+
+.couses-title-review {
+  display: flex;
   justify-content: space-between;
-  gap: 68px;
-
+  align-items: center;
+  margin-bottom: 10px;
 }
-.couses-title-review h1{
+
+.couses-title-review h1 {
   color: #171100;
-font-family: Poppins;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 30px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
 }
 
-.couses-title-review p span{
-color: #FEA31B;
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px;
+.couses-title-review p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0;
 }
-.couses-price-button{
-   display: flex;
-  justify-content: space-between;
-  gap: 68px;
 
+.couses-title-review p span {
+  color: #FEA31B;
+  font-family: Poppins;
+  font-size: 16px;
 }
-.card-body h2{
+
+.card-content h2 {
   color: #5F5B53;
-font-family: Poppins;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 10px 0 20px;
 }
 
-.couses-price-button h1{
+.couses-price-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.couses-price-button h1 {
   color: #171100;
-font-family: Poppins;
-font-size: 18px;
-font-style: normal;
-font-weight: 600;
-line-height: 30px;
-
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
 }
-.couses-price-button button{
+
+.couses-price-button button {
   width: 118px;
-height: 50px;
-flex-shrink: 0;
-border: none;
-border-radius: 25px;
-background: #FFB900;
-color: #FFF;
-text-align: center;
-font-family: Poppins;
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-line-height: 26px;
-
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  background: #FFB900;
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
 }
+
+.courses-card-list{
+  padding-top: 40px;
+  display: flex;
+  gap: 30px;
+}
+.course-card {
+  width: 370px;
+  height: 466px;
+  background: white;
+  box-shadow: 0px 18px 36px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  padding: 0;
+}
+
+.course-image {
+  width: 370px;
+  height: 278px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  display: block;
+}
+
+.title-rating {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 15px;
+}
+
+.course-title {
+  color: #171100;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 0;
+}
+
+.course-rating {
+  color: #FEA31B;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.course-description {
+  width: 326px;
+  color: #5F5B53;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 26px;
+   padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 6px;
+  margin: 0;
+}
+
+.course-footer {
+  display: flex;
+  justify-content: space-between;
+   padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 12px;
+  align-items: center;
+}
+
+.course-price {
+  color: #171100;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.book-button {
+  width: 118px;
+  height: 50px;
+  background: #171100;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.book-button:hover{
+  background: #FFB900;
+}
+
 
 
 /* End Courses CSS */
@@ -496,10 +635,11 @@ line-height: 26px;
 .testimonial {
   background: #2E2100;
   height: 380px;
+  margin-top: 10px;
 }
 
 .testimonial .container {
-  padding: 96px 0px;
+  padding: 94px 0px;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 15px;
@@ -557,49 +697,84 @@ line-height: 26px;
 }
 
 
-/* Start Courses Section CSS */
-.courses-section {
-  padding: 200px 0px;
-  height: 645px;
+/* Start feature CSS */
+.feature-section{
+  /* // */
+}
+.feature-section .container{
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
-.courses-top {
+.feature-main-row{
   display: flex;
-  justify-content: space-between;
+  gap: 700px;
 }
 
-.courses-heading h1 {
+.feature-left{
+  position: relative;
+  display: flex;
+}
+.feature-left .feature-image1{
+  position: absolute;
+  top: 32px;
+
+}
+
+.feature-left .feature-image2{
+  position: absolute;
+  top: 0px;
+  left: 300px;
+}
+.feature-right{
+  margin-top: 23px;
+}
+.feature-right h1{
+  margin-bottom: -0px;
+  width: 470px;
   color: #171100;
-  font-family: "Sen", sans-serif;
-  font-size: 38px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 48px;
-  /* 126.316% */
-  letter-spacing: -0.76px;
-  margin-bottom: -10px;
-  margin-top: 0px;
-
+font-family: 'Sen', sans-serif;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -0.76px;
+}
+.feature-right h2,p{
+  margin-top: 17px;
+  width: 458px;
+color: #5F5B53;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
 }
 
-.courses-heading p {
-  color: #5F5B53;
-  font-family: Poppins;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
-  /* 166.667% */
-
+.feature-button button{
+  margin-top: 15px;
+  width: 137px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 26px;
+background: #FFB900;
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px;
+border: none;
 }
 
-/* End Courses Section CSS */
+/* End feature CSS */
 
 
 
 /* Start CTA section CSS */
 .cta-section {
-  padding-top: 100px;
+  padding-top: 63px;
 }
 
 .cta-section .container {
@@ -611,12 +786,15 @@ line-height: 26px;
 
 .cta-left {
   width: 570px;
+  position: relative;
 
 }
 
 .cta-left h1 {
+  position: absolute;
+  top: -120px;
   color: #171100;
-  font-family: Sen;
+  font-family: 'Sen', sans-serif;
   font-size: 38px;
   font-style: normal;
   font-weight: 700;
@@ -625,12 +803,16 @@ line-height: 26px;
 }
 
 .cta-left p {
+  position: absolute;
+  top: 20px;
+  width: 570px;
+  padding-top: 10px;
   color: #5F5B53;
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
 }
 
 /* End CTA CSS */
